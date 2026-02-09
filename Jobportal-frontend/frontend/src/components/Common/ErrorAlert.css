@@ -1,0 +1,94 @@
+.error-alert {
+  background: #fee2e2;
+  border: 1px solid #fecaca;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.error-icon {
+  color: #dc2626;
+  font-size: 24px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.error-content {
+  flex: 1;
+}
+
+.error-content h3 {
+  color: #991b1b;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.error-content p {
+  color: #7f1d1d;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Warning Alert */
+.warning-alert {
+  background: #fef3c7;
+  border: 1px solid #fde68a;
+}
+
+.warning-alert .error-icon {
+  color: #d97706;
+}
+
+.warning-alert h3 {
+  color: #92400e;
+}
+
+.warning-alert p {
+  color: #78350f;
+}
+
+/* Info Alert */
+.info-alert {
+  background: #dbeafe;
+  border: 1px solid #bfdbfe;
+}
+
+.info-alert .error-icon {
+  color: #2563eb;
+}
+
+.info-alert h3 {
+  color: #1e40af;
+}
+
+.info-alert p {
+  color: #1c3faa;
+}
+
+/* Success Alert */
+.success-alert {
+  background: #d1fae5;
+  border: 1px solid #a7f3d0;
+}
+
+.success-alert .error-icon {
+  color: #059669;
+}
+
+.success-alert h3 {
+  color: #065f46;
+}
+
+.success-alert p {
+  color: #064e3b;
+}
+
+/* Alert with Retry Button */
+.error-alert.with-retry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
